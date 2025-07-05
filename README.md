@@ -121,12 +121,12 @@ CopyEdit
 ```
 #### Get Summary of a Student (e.g., student with ID 1):
 
-bash
+```bash
 
 CopyEdit
 
 `curl http://localhost:8080/students/1/summary`
-
+```
 * * *
 
 ## ⚠️ Common Errors
@@ -135,70 +135,27 @@ CopyEdit
 
 If you encounter a memory error, like:
 
-json
+```json
 
 CopyEdit
 
 `"error": "model requires more system memory (5.5 GiB) than is available (3.6 GiB)"`
-
+```
 #### 🔧 Solution:
 
 Use a lighter model with less memory usage:
 
-bash
+```bash
 
 CopyEdit
 
 `ollama pull mistral:instruct-q4_0 ollama run mistral:instruct-q4_0`
-
+```
 * * *
 
-## 👨‍💻 Author
-
-* *   **Your Name**
-*     
-* *   📧 your.email@example.com
-*     
-* *   🔗 GitHub Profile
-*     
+**Spring Boot** for building Java-based web applications.
+**Ollama** for AI-based services.
+**OpenAI** for the inspiration behind this project.
+    
 
 * * *
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
-
-* * *
-
-## 🌟 Acknowledgments
-
-* *   **Spring Boot** for building Java-based web applications.
-*     
-* *   **Ollama** for AI-based services.
-*     
-* *   **OpenAI** for the inspiration behind this project.
-*     
-
-* * *
-
-### 📌 Final Notes:
-
-* *   Replace placeholders like `https://github.com/yourusername/...` with your actual repo URL.
-*     
-* *   You can also add images/screenshots for testing (e.g., Postman demo).
-*     
-* *   Include a `LICENSE` file for further legal protection if required.
-*     
-
-* * *
-
-## Badges
-
-If you want clickable badges for the project, the ones included here are examples. You can modify them according to your needs, e.g., adding a **coverage badge** or **CI badge**.
-
-markdown
-
-CopyEdit
-
-``### Key Sections: 1. **Clone & Build**: Clone the repo and run it with Maven. 2. **Test Endpoints**: Sample `curl` commands for testing. 3. **Common Errors**: Solutions to memory issues with Ollama. 4. **Author and License**: Basic author info and license notice.  ---  Let me know if you'd like to modify any other sections or add more details!``
-  
