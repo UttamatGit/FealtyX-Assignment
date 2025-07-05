@@ -95,7 +95,8 @@ This project integrates with [Ollama](https://www.ollama.com/) to generate smart
   ```
   ## 🧪 Running the App
 
-  ## 🧠 Start Ollama Server
+  
+### 🧠 Start Ollama Server
 
 ```bash
 ollama serve
@@ -108,20 +109,16 @@ Once the application is running, you can test the API using **Postman** or **cur
 
 #### Create a Student:
 
-bash
-
-CopyEdit
-
+```bash
 `curl -X POST http://localhost:8080/students \   -H "Content-Type: application/json" \   -d '{"name": "Alice", "age": 22, "email": "alice@example.com"}'`
-
+```
 #### Get All Students:
 
-bash
-
+```bash
 CopyEdit
 
 `curl http://localhost:8080/students`
-
+```
 #### Get Summary of a Student (e.g., student with ID 1):
 
 bash
