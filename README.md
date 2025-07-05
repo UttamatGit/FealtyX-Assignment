@@ -154,7 +154,9 @@ CopyEdit
 * * *
 # 🌟 Acknowledgments
 **Spring Boot** for building Java-based web applications.
+
 **Ollama** for AI-based services.
+
 **OpenAI** for the inspiration behind this project.
     
 
